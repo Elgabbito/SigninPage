@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #fca5a5;
+}
+
+.wrapper{
+  width: 390px;
+  background-color:#E6CFE2;
+  border-radius: 50px;
+  height: 800px;
+}
+.wrapper .title{
+  line-height: 22px;
+  color: #72567A;
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 10vh;
+}
+.wrapper form{
+  padding: 50px 45px 35px 45px;
+  
+ 
+}
+.wrapper .row{
+ line-height: 40px;
+ padding-bottom: 50px;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: none;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+    
+  }
+   button {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    background: #A97798;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+  button:hover {
+    opacity: 0.8;
+  }
+label[for=email], label[for=password]{
+
+   width: 117px;
+   height: 15px;
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 15px;
+   font-weight: 600; 
+   padding-bottom: 10px;
+ 
+}
+
+  span.psw{
+    float: right;
+    text-decoration: none;
+    color: #000000;
+    line-height: 0;
+  
+   
+  }
+  .psw a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 14px 16px;
+    font-weight: 300;
+    line-height: 15px;
+
+   
+  }
+
+#main-content{
+   display: grid;
+   place-items: center;
+}
+
+#form-content label{
+    font-size: large;
+    font-weight: bolder;
+
+}
+.main-line:before {
+    content: " ";
+    display: block;
+    height: 0px;
+    width: 70px;
+    position: grid;
+
+    top: 60%;
+    left: 29px;
+    border: 1px solid rgba(114, 86, 122, 0.46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-line:after {
+    content: "  ";
+    display: block;
+    float: right;
+    height: 0px;
+    width: 70px;
+    position: grid;
+    top: 50%;
+    left: 255px;
+    border: 1px solid rgba(114, 86, 122, 0.46);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+#text{
+  color: #3C3C3C;
+  font-weight: 500;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-left: 100px;
+  position: relative;
+
+}
+
+ img{
+    margin-left: 90px;
+  
+   align-items: center;
+   width: 120px;
+   height: 80px;
+}
+#alter img:hover{
+  opacity: 0.7;
+}
+
+#sign{
+    text-decoration: none;
+
+}
+#sign:hover{
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+.content{
+    
+
+}
+.content p{
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+
+}
+
+
+
+
+
+
